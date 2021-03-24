@@ -1,0 +1,166 @@
+/*
+HOVER
+.titulo {
+  color: green;
+}
+.titulo:hover {
+  color: white;
+  background-color: red;
+  border: 5px solid black;
+}
+
+.dibujo:hover {
+  opacity: 0.3;
+}
+*/
+/* ACTIVE
+a {
+  width: 100px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  color: white;
+}
+a:active {
+  background-color: cyan;
+  color: black;
+}
+p {
+  font-size: 1.5em;
+  font-style: italic;
+}
+p:active {
+  background-color: black;
+  color: white;
+}
+*/
+/* NOT con BODY
+body :not(div, .parrafo) {
+  color: crimson;
+}
+*/
+/* NOT sobre los hijos
+    div :not(h2) {
+    font-size: 3em;
+    }
+*/
+/*  FIRST-CHILD / LAST-CHILD
+    ul li:first-child {
+    color: aquamarine;
+    }
+
+    div p:first-child {
+    color: blueviolet;
+    }
+
+    ul li:last-child {
+    background-color: brown;
+    }
+
+    div p:last-child {
+    background-color: cadetblue;
+    }
+*/
+/*  ONLY-CHILD
+    ul li:only-child {
+    color: red;
+    }
+*/
+/* ONLY-OF-TYPE
+    div p:only-of-type {
+    color: red;
+    }
+    div h1:only-of-type {
+    color: blue;
+    }
+*/
+/* FIRST-OF-TYPE
+    div p:first-of-type {
+        color: red;
+    }
+*/
+/*
+    div :first-child {
+    color: blue;
+    }
+
+    div h2:first-child {
+    color: red;
+    }
+*/
+/*  nth-child(n)
+    div p:nth-child(3) {
+    color: blue;
+    }
+    div p:nth-last-child(3) {
+    color: red;
+    }
+    div p:nth-child(odd) {
+      color: blue;
+    }
+    div p:nth-child(even) {
+      color: green;
+    }
+*/
+/*
+    2n: duplica
+    3n: Multiplica por 3
+    2n-1: Impares
+
+    div p:nth-last-child(2n) {
+    color: blue;
+    }
+*/
+/* LINK / VISITED
+    a:link {
+    background-color: aqua;
+    }
+    a:visited {
+    background-color: coral;
+    }
+*/
+/*  BEFORE / AFTER
+    h2::before {
+    content: "Yo soy ";
+    }
+    h2::after {
+    content: ". Un gusto!";
+    }
+*/
+/*  DISABLED / VALID / INVALID / FOCUS 
+input:disabled {
+  background-color: red;
+  color: white;
+}
+
+input:valid {
+  border: 2px solid greenyellow;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+input:focus {
+  background-color: cadetblue;
+}
+*/
+input[type="check"]:checked {
+  background-color: red;
+}
+
+* {
+}
+ul li {
+}
+
+.flexbox .alineacionderecha {
+}
+
+#idNombre {
+  color: brown;
+}
+input:required {
+  background-color: blue;
+}
